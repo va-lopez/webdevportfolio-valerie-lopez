@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import gitHubImage from '../../assets/small/GitHub-Mark-32px.png';
 import linkedInImage from '../../assets/small/Link_in_icon.png';
 import {FaEnvelope} from 'react-icons/fa';
