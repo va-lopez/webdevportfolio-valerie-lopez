@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2484d745.chunk.css",
+    "main.js": "/portfolio/static/js/main.596f77bb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.596f77bb.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fc77c043.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fc77c043.js.map",
+    "static/js/2.d4ca835a.chunk.js": "/portfolio/static/js/2.d4ca835a.chunk.js",
+    "static/js/2.d4ca835a.chunk.js.map": "/portfolio/static/js/2.d4ca835a.chunk.js.map",
+    "static/js/3.5d684795.chunk.js": "/portfolio/static/js/3.5d684795.chunk.js",
+    "static/js/3.5d684795.chunk.js.map": "/portfolio/static/js/3.5d684795.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.2484d745.chunk.css.map": "/portfolio/static/css/main.2484d745.chunk.css.map",
+    "static/js/2.d4ca835a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d4ca835a.chunk.js.LICENSE.txt",
+    "static/media/PearsonResume-ValerieLopez.68f3aab4.pdf": "/portfolio/static/media/PearsonResume-ValerieLopez.68f3aab4.pdf",
+    "static/media/bio-pic.d82edd74.jpg": "/portfolio/static/media/bio-pic.d82edd74.jpg",
+    "static/media/cineView.59bdd688.png": "/portfolio/static/media/cineView.59bdd688.png",
+    "static/media/coding_quiz.f06e3738.png": "/portfolio/static/media/coding_quiz.f06e3738.png",
+    "static/media/employeeAide.32c51a63.PNG": "/portfolio/static/media/employeeAide.32c51a63.PNG",
+    "static/media/noteTaker.ac0117d7.png": "/portfolio/static/media/noteTaker.ac0117d7.png",
+    "static/media/password_gen_preview.57abe7c9.png": "/portfolio/static/media/password_gen_preview.57abe7c9.png",
+    "static/media/weatherDashboard.c823f608.png": "/portfolio/static/media/weatherDashboard.c823f608.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc77c043.js",
+    "static/js/2.d4ca835a.chunk.js",
+    "static/css/main.2484d745.chunk.css",
+    "static/js/main.596f77bb.chunk.js"
+  ]
+}
