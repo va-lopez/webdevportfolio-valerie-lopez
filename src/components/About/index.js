@@ -3,7 +3,7 @@ import bioPic from '../../assets/cover/bio-pic.jpg'
 
 function About() {
   return (
-    <section id="about" style={{width:"100%"}}>
+    <section id="about" style={{width:"100%"}} className = "p-4">
       <div id="jumbotron" className ="transparent-bg">
         <h1 className = "w-6"> About Me </h1>
         <div className = "bio">

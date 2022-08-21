@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 import { validateEmail } from '../../utils/helpers';
+import Container from 'react-bootstrap/Container';
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -37,29 +39,32 @@ function Contact() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
+    <Container fluid style = {{margin:"0 auto"}} className = "p-4">
+      <Form style = {{maxWidth: "80%" , boxShadow: "5px 5px 2px #888888" , margin: "0 auto" , border: "1px solid grey"}} className="p-4">
+        <Form.Group>
+          <h3 data-testid="h1tag">Contact me</h3>
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <Form.Label htmlFor="name">Name:</Form.Label>
+            <Form.Control type="text" name="name" defaultValue={name} onBlur={handleChange} />
           </div>
-        )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
-    </section>
+          <div>
+            <Form.Label htmlFor="email">Email address:</Form.Label>
+            <Form.Control type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          </div>
+          <div>
+            <Form.Label htmlFor="message">Message:</Form.Label>
+            <Form.Control name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          </div>
+
+          {errorMessage && (
+            <div>
+              <Form.Text className="error-text">{errorMessage}</Form.Text>
+            </div>
+          )}
+          <Button data-testid="button" type="submit"  className="mt-3">Submit</Button>
+        </Form.Group>
+      </Form>
+    </Container>
   );
 }
 

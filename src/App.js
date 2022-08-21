@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import About from './components/About';
-import Nav from './components/Nav';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -29,14 +29,14 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <Nav
-      currentPage = {currentPage}
-      handlePageChange ={handlePageChange}
-      />
-      {renderPage()}
-      <Footer/>
-    </div>
+      <div>
+        <Navigation
+        currentPage = {currentPage}
+        handlePageChange ={handlePageChange}
+        />
+        {renderPage()}
+        <Footer/>
+      </div>
   );
 }
 
