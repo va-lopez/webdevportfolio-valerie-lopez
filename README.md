@@ -13,4 +13,5 @@ Make sure to install all your dependencies, this uses react, fontawesome, and bo
 ![Contact Me](./src/assets/snapshots/contact.png)
 
 link to github project page: https://github.com/va-lopez/webdevportfolio-valerie-lopez/tree/main
+link to deployed application is here: https://va-lopez.github.io/webdevportfolio-valerie-lopez/
 
